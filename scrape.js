@@ -39,16 +39,3 @@ const urls = [
   await browser.close();
   console.log(`TOTAL SUM ACROSS ALL PAGES: ${grandTotal}`);
 })();
-```
-
-Click **"Commit new file"** at the bottom.
-
----
-
-## Step 4: Create the GitHub Action Workflow
-
-GitHub Actions live in a special folder: `.github/workflows/`
-
-Click **"Add file" → "Create new file"** and type this exact path in the name box:
-```
-.github/workflows/scrape.yml
